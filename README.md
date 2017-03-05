@@ -2,9 +2,9 @@ Experimenting with React, SVG and touch events.
 
 http://terabaud.github.io/react-touch-events/
 
-## Experiencing some issues:
+## Experiencing some issues in Chrome:
 
-1. I'm unable to preventDefault in my onTouchMove event handler, so that dragging the point down causes a page reload on mobile. React warns about this with the message: `Unable to preventDefault inside passive event listener due to target being treated as passive. See https://www.chromestatus.com/features/5093566007214080`
+1. I'm unable to preventDefault in my onTouchMove event handler, so that dragging the point down causes a page reload on mobile. React warns about this with the message: `Unable to preventDefault inside passive event listener due to target being treated as passive. See https://www.chromestatus.com/features/5093566007214080` [browse issue](https://bugs.chromium.org/p/chromium/issues/detail?id=639227)
 
 2. In the touch event handlers, `e.changedTouches` is null. I have to use `e.nativeEvent.changedTouches` instead.
 
