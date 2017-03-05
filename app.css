@@ -1,0 +1,30 @@
+body {
+	background: #222;
+	color: #fff;
+}
+
+.main {
+  position: absolute;
+	bottom: 0; top:0;
+	left: 0; right:0;
+	overflow: hidden;
+}
+
+svg {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+
+circle {
+	cursor: pointer;
+	fill: deeppink;
+}
+
+.debug {
+	position: absolute;
+	top:0;
+	position: absolute;
+	z-index: -1;
+	user-select: none;
+}
