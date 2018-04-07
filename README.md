@@ -14,3 +14,7 @@ http://terabaud.github.io/react-touch-events/
 ## Side note: 
 
 To keep things simple, there is no module build system, It just includes React via script tag and uses [babel-standalone](https://github.com/babel/babel-standalone) for es2015/jsx transpilation
+
+### Note to myself
+
+Have a look at https://github.com/jquery/PEP and the [React Pointable component](https://www.npmjs.com/package/react-pointable)
